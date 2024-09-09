@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "flink-tuto"
+version = "0.1.0"
+description = ""
+authors = ["pjbeamud <upvbeamud@gmail.com>"]
+readme = "README.md"
+packages = [{from="src", include="src"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+faker = "^28.4.1"
+six = "^1.16.0"
+python-dateutil = "^2.9.0.post0"
+jupyter = "^1.1.1"
+pandas = "^2.2.2"
+pydantic = "^2.9.1"
+geopy = "^2.4.1"
+folium = "^0.17.0"
+kafka-python = "^2.0.2"
+confluent-kafka = "^2.5.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
